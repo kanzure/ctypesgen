@@ -118,7 +118,7 @@ class WrapperPrinter:
         template_file.close()
 
     def print_preamble(self):
-        path = path_to_local_file("preamble.py")
+        path = path_to_local_file("preamble_short.py")
 
         print >>self.file, "# Begin preamble"
         print >>self.file
