@@ -10,7 +10,7 @@
 
 from setuptools import setup
 
-setup(name='ctypesgen',
+setup(name='ctypesgen-dev',
     version="0.0.1",
     description='Python wrapper generator for ctypes',
     url='http://code.google.com/p/ctypesgen/',
