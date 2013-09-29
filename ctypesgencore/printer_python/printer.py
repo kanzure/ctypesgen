@@ -149,7 +149,7 @@ class WrapperPrinter:
         print >>self.file, '_libs["%s"] = load_library("%s")'%(library,library)
 
     def print_module(self,module):
-        print >>self.file, 'from %s import *' % name
+        print >>self.file, 'from %s import *' % module
 
     def print_constant(self,constant):
         print >>self.file, '%s = %s' % \
