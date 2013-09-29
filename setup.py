@@ -8,12 +8,10 @@
 
 """
 
-from distutils.core import setup
-
-import ctypesgencore
+from setuptools import setup
 
 setup(name='ctypesgen',
-    version=ctypesgencore.VERSION,
+    version="0.0.1",
     description='Python wrapper generator for ctypes',
     url='http://code.google.com/p/ctypesgen/',
     license='BSD License',
